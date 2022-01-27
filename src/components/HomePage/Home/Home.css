@@ -1,0 +1,9 @@
+.wrapper {
+  flex: 1;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}

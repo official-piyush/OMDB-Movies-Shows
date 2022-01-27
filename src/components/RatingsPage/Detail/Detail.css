@@ -1,0 +1,14 @@
+.detail {
+  display: flex;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.category {
+  font-weight: 500;
+}
+
+.category-value {
+  color: #3f7ee2;
+  margin-left: 1em;
+}

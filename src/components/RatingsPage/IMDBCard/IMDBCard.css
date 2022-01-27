@@ -1,0 +1,41 @@
+.imdb-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imdb-text {
+  color: #bcbcbc;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding-bottom: 0.2em;
+}
+
+.imdb-card-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: gold;
+  font-size: 23px;
+  margin-right: 5px;
+}
+
+.imdb-rating {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+.imdb-overall {
+  color: #adadad;
+}
+
+.imdb-votes {
+  color: #adadad;
+  font-size: 12px;
+  padding-top: 0.2em;
+  letter-spacing: 1px;
+}

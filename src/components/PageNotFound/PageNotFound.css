@@ -1,0 +1,49 @@
+.layout-wrapper {
+  flex: 1;
+  min-height: 72vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  align-items: center;
+  color: white;
+}
+
+.pnf-image-container {
+  width: 380px;
+}
+
+.pnf-image {
+  width: 100%;
+  display: block;
+}
+
+.pnf-text {
+  max-width: 500px;
+}
+
+.pnf-heading {
+  font-size: 90px;
+  margin: 0;
+  letter-spacing: 2px;
+  color: gold;
+}
+
+.pnf-sub-heading {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.pnf-description {
+  letter-spacing: 1px;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.pnf-link {
+  text-decoration: none;
+  color: gold;
+  font-weight: 500;
+}

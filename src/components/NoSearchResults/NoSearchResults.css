@@ -1,0 +1,33 @@
+.no-results-wrapper {
+  flex: 1;
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.sad-image-container {
+  width: 350px;
+  display: flex;
+}
+
+.sad-image {
+  width: 100%;
+  display: block;
+}
+
+.no-results-text {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #e0e0e0;
+}
+
+.invalid-search-term {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}

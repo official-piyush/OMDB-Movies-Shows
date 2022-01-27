@@ -1,0 +1,39 @@
+.section-dark {
+  background-color: #1f1f1f;
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 5em 2em 3em;
+}
+
+.section-left {
+  color: white;
+}
+
+.section-right {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}
+
+.movie-title-ratings {
+  margin-top: 0;
+  padding: 0;
+  font-size: 43px;
+  font-weight: 400;
+}
+
+.plot {
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  padding: 1em 0;
+  text-align: justify;
+}
+
+.major-details {
+  padding-top: 2em;
+}
+
+.border-dark {
+  border-top: 1px solid #4c4c4c;
+}

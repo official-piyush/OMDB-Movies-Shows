@@ -1,0 +1,14 @@
+.awards-section {
+  margin-top: 2em;
+  padding: 1em;
+  border: 1px solid #f5c518;
+  border-radius: 4px;
+}
+
+.awards-text {
+  font-weight: 500;
+}
+
+.awards-value {
+  margin-left: 1em;
+}
