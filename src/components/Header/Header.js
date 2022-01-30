@@ -6,30 +6,18 @@ import './Header.css';
 
 function Header() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [errorState, setErrorState] = useState({
-    'movie-show': false,
-  });
+  const [errorState, setErrorState] = useState(false);
   const navigate = useNavigate();
 
   function searchInputHandler(event) {
     setSearchTerm(event.target.value);
-    setErrorState((prevErrorState) => {
-      return {
-        ...prevErrorState,
-        'movie-show': false,
-      };
-    });
+    setErrorState(false);
   }
 
   function searchSubmitHandler(event) {
     event.preventDefault();
     if (searchTerm.trim() === '') {
-      setErrorState((prevErrorState) => {
-        return {
-          ...prevErrorState,
-          'movie-show': true,
-        };
-      });
+      setErrorState(true);
       return;
     } else {
       // submit the form
@@ -45,11 +33,10 @@ function Header() {
       <form onSubmit={searchSubmitHandler} className="search-form">
         <input
           type="text"
-          name="movie-show"
           id="movie-show"
           value={searchTerm}
           onChange={searchInputHandler}
-          className={`search-field ${errorState['movie-show'] && 'error'}`}
+          className={`search-field ${errorState && 'error'}`}
           spellCheck="false"
           autoComplete="off"
           placeholder="Search OMDb"
